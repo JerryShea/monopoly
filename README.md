@@ -8,7 +8,7 @@ Complete in that it considers:
 * chance and community chest cards that send you to jail, a particular square, or back 3 spaces
 
 But not
-* "pay a $100K fine or take a chance" card
+* "pay a fine or take a chance" card
 
 ![example](example.png "Example output")
 
