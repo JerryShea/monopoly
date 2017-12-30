@@ -145,8 +145,8 @@ public class Main {
         return advance(position, chanceIndex++, chanceCards);
     }
 
-    private static int advance(int position, int index, String[] advances) {
-        String card = advances[index % advances.length];
+    private static int advance(int position, int cardIndex, String[] cards) {
+        String card = cards[cardIndex % cards.length];
         if (card.length() == 0)
             return position;
         else {
